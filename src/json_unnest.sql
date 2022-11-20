@@ -54,6 +54,12 @@ SELECT
 
 SELECT 
   j -> 'family' as family, 
-  unnest(json_transform(json_extract(j, '$.species'), '["VARCHAR"]')) AS species 
+  UNNEST(JSON_TRANSFORM(JSON_EXTRACT(j, '$.species'), '["VARCHAR"]')) AS species 
 FROM
   example;
+  
+SELECT
+    TYPEOF(JSON_TRANSFORM(JSON_EXTRACT(j, '$.species'), '["VARCHAR"]')),
+    TYPEOF(JSON_EXTRACT(j, '$.species'))
+FROM
+    example;
