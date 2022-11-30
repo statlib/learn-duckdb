@@ -1,0 +1,11 @@
+DROP TABLE obs
+CREATE TABLE obs(id INT, val1 INT, val2 INT);
+INSERT INTO obs VALUES (1, 10, 100), (2, 20, NULL), (3, NULL, 300);
+
+SELECT MIN(COLUMNS(*)), COUNT(*) from obs;
+
+FROM obs SELECT COLUMNS('val');
+
+SELECT COLUMNS('val[0-9]+') FROM obs;
+
+FROM obs SELECT COLUMNS('val[0-9]+');
