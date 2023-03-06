@@ -5,7 +5,6 @@ Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb) >= 0.6.0
 ## duckdb
 * [:computer: duckdb-python.py](https://github.com/duckdb/duckdb/blob/master/examples/python/duckdb-python.py)
 * [:computer: data-parquet-testing](https://github.com/duckdb/duckdb/blob/master/data/parquet-testing)
-* [:computer: json-tests](https://github.com/duckdb/duckdb/tree/a7493fec044a3d652389039fc942a3d331cf2c16/test/sql/json)
 * [:computer: parquet-tests](https://github.com/duckdb/duckdb/tree/master/test/parquet)
 * [:computer: json-sql-tests](
 https://github.com/duckdb/duckdb/tree/master/test/sql/json)
