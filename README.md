@@ -3,6 +3,10 @@ Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb) >= 0.6.0
 
 ## Libraries
 
+### Database
+* LanceDB
+* Velox
+
 ### Dashboard
 * Rill
 * Metabase
@@ -10,7 +14,8 @@ Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb) >= 0.6.0
 
 ### Orchestration
 * Dagster
-* dbt
+* DBT
+* Kedro
 * Prefect
 
 ### Other
