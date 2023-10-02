@@ -19,10 +19,11 @@ Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb) >= 0.6.0
 * Prefect
 
 ### Other
+* DBeaver
+* DLT
+* Evidence
 * Hex
 * Motherduck
-* Evidence
-* DBeaver
 
 ## Links
 ### duckdb
