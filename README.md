@@ -24,6 +24,8 @@ Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb) >= 0.6.0
 * Evidence
 * Hex
 * Motherduck
+* Vaex
+* Data Fusion
 
 ## Links
 ### duckdb
