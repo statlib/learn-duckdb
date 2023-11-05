@@ -2,6 +2,7 @@
 Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb) >= 0.6.0
 
 ## Libraries
+* https://sourcegraph.com/search?q=context:global+duckdb+file:requirements.txt&patternType=standard&sm=1&groupBy=repo
 
 ### Database
 * LanceDB
