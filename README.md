@@ -1,5 +1,18 @@
 # learn-`duckdb`
-Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb) >= 0.6.0
+Repo to experiment with [`duckdb`](https://github.com/duckdb/duckdb)
+
+## Building from source
+```
+# https://duckdb.org/dev/building.html
+# https://duckdb.org/docs/archive/0.9.1/installation/
+sudo apt-get update
+sudo apt-get install -y git g++ cmake ninja-build
+
+git clone https://github.com/duckdb/duckdb.git
+cd duckdb
+export BUILD_PYTHON=1 make debug
+make -j8
+```
 
 ## Libraries
 * https://sourcegraph.com/search?q=context:global+duckdb+file:requirements.txt&patternType=standard&sm=1&groupBy=repo
